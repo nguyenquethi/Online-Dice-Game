@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 class Result extends Component {
   render() {
     console.log(this.props);
+    // Destructuring
     const {goal, yourChoosing, totalGame} = this.props;
     return (
       <div>
